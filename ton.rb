@@ -10,6 +10,6 @@ class Ton < Formula
   license "LGPL-2.0-only"
 
   def install
-    bin.install "bin/fift"
+    bin.install Dir["bin/*"]
   end
 end
